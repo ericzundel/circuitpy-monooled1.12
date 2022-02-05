@@ -1,9 +1,11 @@
 # Write your code here :-)
 import time
+import sys
 
 import simpletest_monooled
 
-system.exit(0)
+print("WARNING: main.py not ready yet", file=sys.stderr)
+sys.exit(0)
 
 while True:
     screen = simpletest_monooled.screen()
